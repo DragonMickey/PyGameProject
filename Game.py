@@ -102,7 +102,7 @@ def gameText():
     infoText1 = FONTxsmall.render("Кликай на печеньку, чтобы испечь печеньки", False, (0, 0, 0))
     WINDOW.blit(infoText1, (480, 670))
 
-    infoText2 = FONTxsmall.render("Кликай на иконки Улучшения и Кликера, чтобы купть их", False, (0, 0, 0))
+    infoText2 = FONTxsmall.render("Кликай на иконки Улучшения и Кликера, чтобы купить их", False, (0, 0, 0))
     WINDOW.blit(infoText2, (400, 690))
 
     upgradesinfoText1 = FONTsmall.render("Покупай Улучшение, чтобы", False, (0, 0, 0))
